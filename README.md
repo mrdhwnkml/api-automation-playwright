@@ -6,7 +6,7 @@ Automation testing project using **Playwright with TypeScript** for end-to-end (
 
 ## 🚀 Tech Stack
 - **Playwright**
-- **JavaScript (Node.js)**
+- **TypeScript (Node.js)**
 - **Playwright Test Runner**
 - **Chromium / Firefox / WebKit**
 
