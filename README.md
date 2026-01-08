@@ -15,10 +15,20 @@ Automation testing project using **Playwright with TypeScript** for end-to-end (
 ## 📂 Project Structure
 ```text
 .
+├── src/
+│   ├── api
+│       ├── auth.api.ts
+│       ├── base.api.ts
+│       ├── user.api.ts
+│   └── heler
+│       ├── assert.helper.ts
+│       ├── auth.helper.ts
 ├── tests/                    # Test cases
-│   ├── login.spec.js
-│   └── example.spec.js
-├── playwright.config.js      # Playwright configuration
+│   ├── auth
+│       ├── login.spec.ts
+│   └── users
+│       ├── getUser.spec.ts
+├── playwright.config.ts      # Playwright configuration
 ├── package.json
 └── README.md
 ```
@@ -38,8 +48,8 @@ npm -v
 ## 📦 Installation
 1️⃣ Clone Repository
 ```
-git clone https://github.com/mrdhwnkml/web-automation-playwright.git
-cd web-automation-playwright
+git clone https://github.com/mrdhwnkml/api-automation-playwright.git
+cd api-automation-playwright
 ```
 2️⃣ Install Dependencies
 ```
@@ -61,7 +71,7 @@ npx playwright test --headed
 ```
 3️⃣ Run specific test file
 ```
-npx playwright test tests/01_addEmployee.spec.js
+npx playwright test tests/login.spec.ts
 ```
 ## 📊 Test Report
 
