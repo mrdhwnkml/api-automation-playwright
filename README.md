@@ -3,6 +3,9 @@
 Automation testing project using **Playwright with TypeScript** for end-to-end (E2E) web testing.
 
 ---
+#### Report Running Test!
+
+[![Playwright Report](https://img.shields.io/badge/Playwright-Report-blue)](https://mrdhwnkml.github.io/api-automation-playwright/)
 
 ## 🚀 Tech Stack
 - **Playwright**
