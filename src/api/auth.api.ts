@@ -5,10 +5,12 @@ export class AuthApi extends BaseApi {
 
   async login(
     payload: { username: string; password: string },
-    options: any = {}
+    options: any = {},
   ) {
     const API_BASE = process.env.API_BASE_URL || "";
-    const path = API_BASE ? `${API_BASE.replace(/\/$/, "")}/login` : "/login";
+    const path = API_BASE
+      ? `${API_BASE.replace(/\/$/, "")}api/login`
+      : "api/login";
 
     const response = await this.post(path, payload, options);
     const body = await response.json();
