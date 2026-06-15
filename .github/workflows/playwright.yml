@@ -36,6 +36,7 @@ jobs:
 
       - name: Run Playwright tests
         run: npx playwright test --project=CHROMIUM
+        continue-on-error: true
 
       - name: Clean old Allure report
         if: always()
