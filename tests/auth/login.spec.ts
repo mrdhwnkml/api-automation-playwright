@@ -10,8 +10,8 @@ test.describe("Auth API - Login", () => {
     const authApi = new AuthApi(request);
 
     const response = await authApi.login({
-      username: "admin",
-      password: "admin",
+      username: "belajarbareng",
+      password: "belajarbareng",
     });
 
     const body = await response.json();
