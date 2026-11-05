@@ -7,8 +7,8 @@ export async function loginAsAdmin(
   const authApi = new AuthApi(request);
 
   await authApi.login({
-    username: "admin",
-    password: "admin",
+    username: "belajarbareng",
+    password: "belajarbareng",
   });
 
   return authApi.token!;
