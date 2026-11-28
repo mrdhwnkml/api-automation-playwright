@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Nov 28 00:11:06 UTC 2026","Sat Nov 28 00:11:07 UTC 2026","230","chromium","users/getUser.spec.ts","GET Users API","","","GET /users - without token",""
+"passed","Sat Nov 28 00:11:05 UTC 2026","Sat Nov 28 00:11:05 UTC 2026","297","chromium","auth/login.spec.ts","Auth API - Login","","","POST /login - valid credentials",""
+"passed","Sat Nov 28 00:11:05 UTC 2026","Sat Nov 28 00:11:05 UTC 2026","115","chromium","auth/login.spec.ts","Auth API - Login","","","POST /login - invalid credentials",""
+"passed","Sat Nov 28 00:11:06 UTC 2026","Sat Nov 28 00:11:06 UTC 2026","231","chromium","users/getUser.spec.ts","GET Users API","","","GET /users - unauthorized",""
+"passed","Sat Nov 28 00:11:05 UTC 2026","Sat Nov 28 00:11:06 UTC 2026","606","chromium","users/getUser.spec.ts","GET Users API","","","GET /users - success",""
